@@ -1,0 +1,49 @@
+# Системные файлы
+*.DS_Store
+*.log
+*.sqlite3
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.pdb
+*.sublime-workspace
+*.sublime-project
+
+# Файлы виртуальных окружений Python
+venv/
+env/
+.venv/
+.env
+
+# Конфиденциальные данные (если используется .env)
+.env
+
+# Файлы, созданные IDE
+.vscode/
+.idea/
+
+# Docker
+*.bak
+docker-compose.override.yml
+docker-compose.local.yml
+docker-compose.prod.yml
+*.pid
+
+# Бинарные файлы, артефакты сборки
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Кэш-папки
+.cache/
+.pytest_cache/
+__pycache__/
+
+# Файлы тестов
+.coverage
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
